@@ -11,11 +11,11 @@ jobs:
               run:  |
                 echo "This job is running on the following OS:"
                 echo $RUNNER_OS
-
     windows-echo:
         runs-on: windows-latest
         steps:
             - name: Show OS
+              shell: bash
               run:  |
                 echo "This job is running on the following OS:"
                 echo $RUNNER_OS
