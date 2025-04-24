@@ -1,0 +1,21 @@
+name: 04 - workflow
+
+on:
+    push:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        
+        # Check out code
+        steps:
+            - name: Check out code
+              uses: actions/checkout@v4
+            - name: Printing Folders
+              run: ls
+
+        # Install dependencies
+
+        
+
+        # Execute tests
