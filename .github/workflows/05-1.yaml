@@ -1,12 +1,7 @@
 name: 05-1 - workflow
 
 on:
-    pull_request:
-        types:
-            - opened
-            - synchronize
-        branches:
-            - main
+    workflow_dispatch:
 
 jobs:
     echo:
